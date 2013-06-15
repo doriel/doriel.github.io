@@ -69,6 +69,7 @@ header div span:hover{
 	margin: 100px 510px 0 0;
 	width:300px;
 	padding: 10px;
+	opacity: 0;
 
 }
 .corpo section img{
@@ -110,6 +111,7 @@ nav{
 
 	margin: 460px 0 0 490px;
 	position: absolute;
+	opacity: 0;
 }
 ul{
 	list-style: none;
