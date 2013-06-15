@@ -38,11 +38,13 @@ header div h1{
 	margin: 20px 0 0 0;
 	opacity: 0.6;
 	cursor: pointer;
+	transition:all 5s;
 
 
 }
 header div h1:hover{
 	opacity: 1;
+	transition:all 5s;
 }
 
 header div span{
@@ -50,9 +52,11 @@ header div span{
 	font-family: sans-serif;
 	cursor: pointer;
 	opacity: 0.7;
+	transition:all 3s;
 }
 header div span:hover{
 	opacity: 1;
+	transition:all 3s;
 }
 /*Corpo*/
 .corpo{
@@ -117,11 +121,12 @@ ul li{
 	font-family: sans-serif;
 	font-size: 25px;
 	margin-left: 20px;
-
+	transition:all 3s;
 }
 ul li:hover{
 	font-style: italic;
 	color: white;
+	transition:all 3s;
 }
 /*Rodapé*/
 footer{
