@@ -18,7 +18,7 @@ window.setTimeout(function() {
             	para.style.opacity = 0;
         	}
             
-        }, 700);
+        }, 500);
 
 
         	
