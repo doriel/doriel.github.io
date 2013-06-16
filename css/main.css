@@ -107,6 +107,26 @@ p{
 p span{
 	font-style: italic;
 }
+.paraloader{
+	width: 100%;
+	height: 650px;
+}
+.carrega{
+	margin: 100px 510px 0 0;
+	width:700px;
+	padding: 10px;
+}
+h2{
+	color: black;
+	font-size: 30px;
+	font-family: 'Spicy Rice', cursive;
+}
+#percentagem .innerDiv {
+    padding:0 50px 0 50px;
+    background-image: none;
+    background-color: #777;
+}
+
 nav{
 
 	margin: 460px 0 0 490px;
