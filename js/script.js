@@ -16,26 +16,30 @@ window.setTimeout(function() {
             if (percenta < 10) {
             	var elem1 = document.getElementById('para');
             	para.style.opacity = 0;
+
+
+     function carregando(){
+        var elem1 = document.getElementById('loading'),
+            elem2 = document.getElementById('menu'),
+            primeira = feid(elem1,8),
+            segunda = feid(elem2,18);
+                
+
+        primeira.on();
+        segunda.on();
+            }
+            window.setTimeout(carregando,2);
+
+
+
         	}
             
         }, 500);
 
-
-        	
-
         
     }, 500)
 
-function carregando(){
-	var elem1 = document.getElementById('loading'),
-		elem2 = document.getElementById('menu'),
-		primeira = feid(elem1,8),
-		segunda = feid(elem2,16);
-				
 
-		primeira.on();
-		segunda.on();
-			}
-window.setTimeout(carregando,6000);
+
 
 			
