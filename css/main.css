@@ -1,221 +1,333 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
-body{
-    background-color:rgba(0,0,0,0.1); ;
 
-    }
-.tudo{
-  width: 100%;
-  height: 100%;
+body {
+	background-color: rgba(0,0,0,0.1);
 }
+
+.tudo {
+	width: 100%;
+	height: 100%;
+}
+
 /*Cabeçalho*/
-header{
+header {
 	background-color: black;
 	width: 100%;
 	height: 50px;
 	top: 0;
 	left: 0;
 	position: fixed;
+
+	-webkit-box-shadow: 5px 5px 5px black;
 	box-shadow: 5px 5px 5px black;
-	transition:all 5s;
+
+	-webkit-transition: all 5s;
+	-moz-transition: all 5s;
+	-o-transition: all 5s;
+	-ms-transition: all 5s;
+	transition: all 5s;
 }
-header div{
+
+header div {
 	position: absolute;
 	margin: 0 0 0 35%;
-  	border-bottom-left-radius: 100px;
-  	border-bottom-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+	border-bottom-right-radius: 100px;
 	background-color: black;
 	width: 400px;
 	height: 100px;
 	text-align: center;
+
+	-webkit-box-shadow: 5px 5px 5px black;
 	box-shadow: 5px 5px 5px black;
-	transition:all 5s;
+
+	-webkit-transition: all 5s;
+	-moz-transition: all 5s;
+	-o-transition: all 5s;
+	-ms-transition: all 5s;
+	transition: all 5s;
 }
-header div h1{
+
+header div h1 {
 	color: white;
 	font-family: georgia;
 	font-size: 40px;
 	margin: 20px 0 0 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
 	opacity: 0.6;
 	cursor: pointer;
-	transition:all 5s;
 
-
+	-webkit-transition: all 5s;
+	-moz-transition: all 5s;
+	-o-transition: all 5s;
+	-ms-transition: all 5s;
+	transition: all 5s;
 }
-header div h1:hover{
+
+header div h1:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
 	opacity: 1;
-	transition:all 5s;
+
+	-webkit-transition: all 5s;
+	-moz-transition: all 5s;
+	-o-transition: all 5s;
+	-ms-transition: all 5s;
+	transition: all 5s;
 }
 
-header div span{
+header div span {
 	color: white;
 	font-family: sans-serif;
 	cursor: pointer;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
 	opacity: 0.7;
-	transition:all 3s;
+
+	-webkit-transition: all 3s;
+	-moz-transition: all 3s;
+	-o-transition: all 3s;
+	-ms-transition: all 3s;
+	transition: all 3s;
 }
-header div span:hover{
+
+header div span:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
 	opacity: 1;
-	transition:all 3s;
+
+	-webkit-transition: all 3s;
+	-moz-transition: all 3s;
+	-o-transition: all 3s;
+	-ms-transition: all 3s;
+	transition: all 3s;
 }
+
 /*Corpo*/
-.corpo{
+.corpo {
 	width: 100%;
 	height: 650px;
-
 }
-.corpo section:first-child{
+
+.corpo section:first-child {
 	float: right;
 	margin: 100px 510px 0 0;
-	width:300px;
+	width: 300px;
 	padding: 10px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
 	opacity: 0;
-
 }
-.corpo section img{
+
+.corpo section img {
 	height: 300px;
 }
-.corpo section div{
+
+.corpo section div {
 	float: left;
 }
+
 .fala {
-   width: 120px;
-   height: 80px;
-   background: #777;
-   margin: 80px 0 0 150px;
-   position: absolute;
-   border-radius:10px;
-   opacity: 0.7;
+	width: 120px;
+	height: 80px;
+	background: #777;
+	margin: 80px 0 0 150px;
+	position: absolute;
+	border-radius: 10px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+	opacity: 0.7;
 }
+
 .fala:before {
-   content:"";
-   position: absolute;
-   width: 0;
-   height: 0;
-   border-top: 13px solid transparent;
-   border-right: 26px solid #777;
-   border-bottom: 13px solid transparent;
-   right: 100%;
-   top: 26px;
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 13px solid transparent;
+	border-right: 26px solid #777;
+	border-bottom: 13px solid transparent;
+	right: 100%;
+	top: 26px;
 }
-p{
-	color:white;
+
+p {
+	color: white;
 	margin: 10px;
 	font-family: verdana;
 	font-size: 14px;
 }
-p span{
+
+p span {
 	font-style: italic;
 }
-.paraloader{
+
+.paraloader {
 	width: 100%;
 	height: 650px;
 }
-.carrega{
+
+.carrega {
 	margin: 100px 510px 0 0;
-	width:700px;
+	width: 700px;
 	padding: 10px;
 }
-h2{
+
+h2 {
 	color: black;
 	font-size: 30px;
 	font-family: 'Spicy Rice', cursive;
 }
+
 #percentagem .innerDiv {
-    padding:0 50px 0 50px;
-    background-image: none;
-    background-color: #777;
+	padding: 0 50px 0 50px;
+	background-image: none;
+	background-color: #777;
 }
 
-nav{
-
+nav {
 	margin: 460px 0 0 490px;
 	position: absolute;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
 	opacity: 0;
 }
-ul{
+
+ul {
 	list-style: none;
 }
-ul li{
+
+ul li {
 	display: inline;
 	cursor: pointer;
 	color: #777;
 	font-family: sans-serif;
 	font-size: 25px;
 	margin-left: 20px;
-	transition:all 3s;
+
+	-webkit-transition: all 3s;
+	-moz-transition: all 3s;
+	-o-transition: all 3s;
+	-ms-transition: all 3s;
+	transition: all 3s;
 }
-ul li:hover{
+
+ul li:hover {
 	font-style: italic;
 	color: white;
-	transition:all 3s;
+
+	-webkit-transition: all 3s;
+	-moz-transition: all 3s;
+	-o-transition: all 3s;
+	-ms-transition: all 3s;
+	transition: all 3s;
 }
+
 /*Rodapé*/
-footer{
+footer {
 	background-color: black;
 	position: fixed;
 	width: 100%;
 	height: 30px;
 	bottom: 0;
-	left:0;
+	left: 0;
+
+	-webkit-box-shadow: 10px 10px 10px 10px black;
 	box-shadow: 10px 10px 10px 10px black;
 	text-align: center;
-	transition:all 5s;
+
+	-webkit-transition: all 5s;
+	-moz-transition: all 5s;
+	-o-transition: all 5s;
+	-ms-transition: all 5s;
+	transition: all 5s;
 }
-footer span{
+
+footer span {
 	font-family: arial;
 	font-size: 13px;
 	color: #777;
 	margin: 0 50px 0 50px;
-	transition:all 5s;
+
+	-webkit-transition: all 5s;
+	-moz-transition: all 5s;
+	-o-transition: all 5s;
+	-ms-transition: all 5s;
+	transition: all 5s;
 }
-@media  screen and (max-width: 690px){
 
-	header{
-		width: 100%;
-		height: 10%;
-		top: 0;
-		left: 0;
-		position: fixed;
-		transition:all 5s;
+@media screen and (max-width: 690px) {
+	header {
+	width: 100%;
+	height: 10%;
+	top: 0;
+	left: 0;
+	position: fixed;
 
-	}
-	header div{
-		position: absolute;
-		margin: 0 0 0 35%;
-  		width: 200px;
-		height: 75px;
-		transition:all 5s;
+	-webkit-transition: all 5s;
+	-moz-transition: all 5s;
+	-o-transition: all 5s;
+	-ms-transition: all 5s;
+	transition: all 5s;
+}
 
-	
-	}
-	header div h1{
-		font-size: 25px;
-		margin: 20px 0 0 0;
-		opacity: 0.6;
-		cursor: pointer;
-		transition:all 5s;
+header div {
+	position: absolute;
+	margin: 0 0 0 35%;
+	width: 200px;
+	height: 75px;
 
-	}
-	footer{
+	-webkit-transition: all 5s;
+	-moz-transition: all 5s;
+	-o-transition: all 5s;
+	-ms-transition: all 5s;
+	transition: all 5s;
+}
+
+header div h1 {
+	font-size: 25px;
+	margin: 20px 0 0 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+	cursor: pointer;
+
+	-webkit-transition: all 5s;
+	-moz-transition: all 5s;
+	-o-transition: all 5s;
+	-ms-transition: all 5s;
+	transition: all 5s;
+}
+
+footer {
 	background-color: black;
 	position: fixed;
 	width: 100%;
 	height: 20px;
 	bottom: 0;
-	left:0;
+	left: 0;
 	text-align: center;
-	transition:all 5s;
-	}
-footer span{
+
+	-webkit-transition: all 5s;
+	-moz-transition: all 5s;
+	-o-transition: all 5s;
+	-ms-transition: all 5s;
+	transition: all 5s;
+}
+
+footer span {
 	font-size: 10px;
 	margin: 0 20px 0 20px;
-	transition:all 5s;
-	}
 
-
-
+	-webkit-transition: all 5s;
+	-moz-transition: all 5s;
+	-o-transition: all 5s;
+	-ms-transition: all 5s;
+	transition: all 5s;
+}
 
 }
