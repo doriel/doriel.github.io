@@ -44,7 +44,28 @@ header div {
 	-webkit-box-shadow: 5px 5px 5px black;
 	box-shadow: 5px 5px 5px black;
 }
+header ul{
+	color: #fff;
+	float: right;
+	list-style: none;
+	
+}
+header ul li{
+	display: inline;
+	margin: 0 0.3em 0 0;
+}
+header a{
+	text-decoration: none;
+	color: #fff;
+}
+header a:visited{
+	color: red;
+}
 
+
+header ul li:hover{
+	border-bottom: 1px solid gray;
+}
 header div h1 {
 	color: white;
 	font-size: 40px;
@@ -173,14 +194,7 @@ img{
 	margin-top: 1px;
 	border-bottom: 1px solid #516D98;
 }
-ul {
-	margin: 0;
-	padding-left: 10px;
-	border-left: 1px solid #9A9A9A;
-	overflow: visible;
-	list-style: none;
-	
-}
+
 /*Rodapé*/
 footer {
 	background-color: black;
