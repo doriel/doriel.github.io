@@ -123,6 +123,10 @@ img{
 	-moz-border-radius:85px;
 	-webkit-border-radius: 85px;
 	border-radius: 85px;
+	cursor: pointer;
+}
+img:hover{
+	border: 0;
 }
 .sobre_d{
 	display: none;
