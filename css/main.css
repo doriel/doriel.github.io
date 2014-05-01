@@ -59,10 +59,11 @@ header a{
 	color: #fff;
 }
 header a:visited{
-	color: red;
+	color: gray;
 }
-
-
+header a:active{
+	color: blue;
+}
 header ul li:hover{
 	border-bottom: 1px solid gray;
 }
