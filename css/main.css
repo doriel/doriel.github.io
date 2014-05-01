@@ -5,7 +5,8 @@
 }
 
 body {
-	background-color: rgba(0,0,0,0.1);
+	background-image: url(../img/doriel_drake.gif);
+	background-repeat: no-repeat;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
