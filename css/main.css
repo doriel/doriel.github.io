@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900);
 * {
 	margin: 0;
 	padding: 0;
@@ -5,6 +6,7 @@
 
 body {
 	background-color: rgba(0,0,0,0.1);
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .tudo {
@@ -22,16 +24,17 @@ header {
 	position: fixed;
 	-webkit-box-shadow: 5px 5px 5px black;
 	box-shadow: 5px 5px 5px black;
-	-webkit-transition: all 5s;
-	-moz-transition: all 5s;
-	-o-transition: all 5s;
-	-ms-transition: all 5s;
-	transition: all 5s;
+	-webkit-transition: all 2s;
+	-moz-transition: all 2s;
+	-o-transition: all 2s;
+	-ms-transition: all 2s;
+	transition: all 2s;
+	z-index: 1000;
 }
 
 header div {
 	position: absolute;
-	margin: 0 0 0 35%;
+	margin: 0 35% 0 35%;
 	border-bottom-left-radius: 100px;
 	border-bottom-right-radius: 100px;
 	background-color: black;
@@ -40,67 +43,49 @@ header div {
 	text-align: center;
 	-webkit-box-shadow: 5px 5px 5px black;
 	box-shadow: 5px 5px 5px black;
-	-webkit-transition: all 5s;
-	-moz-transition: all 5s;
-	-o-transition: all 5s;
-	-ms-transition: all 5s;
-	transition: all 5s;
 }
 
 header div h1 {
 	color: white;
-	font-family: georgia;
 	font-size: 40px;
 	margin: 20px 0 0 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-	filter: alpha(opacity=60);
 	opacity: 0.6;
 	cursor: pointer;
-
-	-webkit-transition: all 5s;
-	-moz-transition: all 5s;
-	-o-transition: all 5s;
-	-ms-transition: all 5s;
-	transition: all 5s;
+	-webkit-transition: all 2s;
+	-moz-transition: all 2s;
+	-o-transition: all 2s;
+	-ms-transition: all 2s;
+	transition: all 2s;
 }
 
 header div h1:hover {
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity=100);
-	opacity: 1;
-
-	-webkit-transition: all 5s;
-	-moz-transition: all 5s;
-	-o-transition: all 5s;
-	-ms-transition: all 5s;
-	transition: all 5s;
+	opacity: .8;
+	-webkit-transition: all 2s;
+	-moz-transition: all 2s;
+	-o-transition: all 2s;
+	-ms-transition: all 2s;
+	transition: all 2s;
 }
 
 header div span {
 	color: white;
-	font-family: sans-serif;
 	cursor: pointer;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-	filter: alpha(opacity=70);
 	opacity: 0.7;
-
-	-webkit-transition: all 3s;
-	-moz-transition: all 3s;
-	-o-transition: all 3s;
-	-ms-transition: all 3s;
-	transition: all 3s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
 }
 
 header div span:hover {
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity=100);
 	opacity: 1;
-
-	-webkit-transition: all 3s;
-	-moz-transition: all 3s;
-	-o-transition: all 3s;
-	-ms-transition: all 3s;
-	transition: all 3s;
+	border-bottom: 1px solid #fff;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
 }
 
 /*Corpo*/
@@ -118,12 +103,25 @@ img{
 	-webkit-border-radius: 85px;
 	border-radius: 85px;
 }
-.sobre_box{
-	margin:20px 0 50px 450px;
-	width:450px;
-	text-align:justify;
+.sobre_d{
+	display: none;
+	margin: 10px 0 50px 0;
+	width: 100%;
+	text-align: center;
 
 }
+.sobre_box{
+	width:100%;
+	text-align: center;
+}
+.sobre_box p{
+	padding: 0 15% 0 15%;
+	text-align: justify;
+}
+.sobre_box h3{
+	font-size: 40px;
+}
+
 .fa {
 	text-decoration: none;
 	font-size: 18pt;
@@ -152,9 +150,6 @@ img{
 } 
 .elink:hover {
 	color: #DD4B39;
-}
-.sobre_d {
-	display: none;
 }
 .btn_sobre {
 	background: #697FA0;
@@ -186,11 +181,6 @@ ul {
 	list-style: none;
 	
 }
-h3{
-	text-align:center;
-
-}
-
 /*Rodapé*/
 footer {
 	background-color: black;
@@ -199,11 +189,9 @@ footer {
 	height: 30px;
 	bottom: 0;
 	left: 0;
-
 	-webkit-box-shadow: 10px 10px 10px 10px black;
 	box-shadow: 10px 10px 10px 10px black;
 	text-align: center;
-
 	-webkit-transition: all 5s;
 	-moz-transition: all 5s;
 	-o-transition: all 5s;
@@ -212,39 +200,36 @@ footer {
 }
 
 footer span {
-	font-family: arial;
 	font-size: 13px;
 	color: #777;
 	margin: 0 50px 0 50px;
-
 	-webkit-transition: all 5s;
 	-moz-transition: all 5s;
 	-o-transition: all 5s;
 	-ms-transition: all 5s;
 	transition: all 5s;
 }
-
-@media screen and (max-width: 690px) {
+/*Adicionar mais alguns intervalos para as coisa work well*/
+@media screen and (max-width: 100px) {
 	header {
 	width: 100%;
 	height: 5%;
 	top: 0;
 	left: 0;
 	position: fixed;
-
 	-webkit-transition: all 5s;
 	-moz-transition: all 5s;
 	-o-transition: all 5s;
 	-ms-transition: all 5s;
 	transition: all 5s;
+	z-index: 1000;
 }
 
 header div {
 	position: absolute;
-	margin: 0 0 0 30%;
+	margin: 0 35% 0 35%;
 	width: 250px;
-	height: 95px;
-
+	height: 5em;
 	-webkit-transition: all 5s;
 	-moz-transition: all 5s;
 	-o-transition: all 5s;
@@ -255,18 +240,12 @@ header div {
 header div h1 {
 	font-size: 25px;
 	margin: 20px 0 0 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-	filter: alpha(opacity=60);
 	opacity: 0.6;
 	cursor: pointer;
-
-	-webkit-transition: all 5s;
-	-moz-transition: all 5s;
-	-o-transition: all 5s;
-	-ms-transition: all 5s;
-	transition: all 5s;
 }
-
+.sobre_box h3{
+	font-size: 30px;
+}
 footer {
 	background-color: black;
 	position: fixed;
@@ -275,18 +254,35 @@ footer {
 	bottom: 0;
 	left: 0;
 	text-align: center;
-
-	-webkit-transition: all 5s;
-	-moz-transition: all 5s;
-	-o-transition: all 5s;
-	-ms-transition: all 5s;
-	transition: all 5s;
+	
 }
-
 footer span {
 	font-size: 10px;
 	margin: 0 20px 0 20px;
+}
+}
 
+
+@media screen and (max-width: 690px) {
+	header {
+	width: 100%;
+	height: 5%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	-webkit-transition: all 5s;
+	-moz-transition: all 5s;
+	-o-transition: all 5s;
+	-ms-transition: all 5s;
+	transition: all 5s;
+	z-index: 1000;
+}
+
+header div {
+	position: absolute;
+	margin: 0 35% 0 27%;
+	width: 250px;
+	height: 5em;
 	-webkit-transition: all 5s;
 	-moz-transition: all 5s;
 	-o-transition: all 5s;
@@ -294,4 +290,71 @@ footer span {
 	transition: all 5s;
 }
 
+header div h1 {
+	font-size: 25px;
+	margin: 20px 0 0 0;
+	opacity: 0.6;
+	cursor: pointer;
+}
+.sobre_box h3{
+	font-size: 30px;
+}
+footer {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	height: 20px;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	
+}
+footer span {
+	font-size: 10px;
+	margin: 0 20px 0 20px;
+}
+}
+@media screen and (max-width: 480px) {
+	header {
+	width: 100%;
+	height: 5%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	-webkit-transition: all 5s;
+	-moz-transition: all 5s;
+	-o-transition: all 5s;
+	-ms-transition: all 5s;
+	transition: all 5s;
+	z-index: 1000;
+}
+
+header div {
+	display: none;
+	
+}
+
+header div h1 {
+	font-size: 25px;
+	margin: 20px 0 0 0;
+	opacity: 0.6;
+	cursor: pointer;
+}
+.sobre_box h3{
+	font-size: 30px;
+}
+footer {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	height: 20px;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	
+}
+footer span {
+	font-size: 10px;
+	margin: 0 20px 0 20px;
+}
 }
