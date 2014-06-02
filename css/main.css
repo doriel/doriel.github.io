@@ -130,6 +130,9 @@ img{
 img:hover{
 	border: 0;
 }
+.frase{
+	margin: 5px 0 5px 0;
+}
 .sobre_d{
 	display: none;
 	margin: 10px 0 50px 0;
