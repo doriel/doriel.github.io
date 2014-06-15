@@ -36,7 +36,7 @@ header {
 
 header div {
 	position: absolute;
-	margin: 0 35% 0 35%;
+	margin: 0 0 0 35%;
 	border-bottom-left-radius: 100px;
 	border-bottom-right-radius: 100px;
 	background-color: black;
@@ -158,27 +158,18 @@ img:hover{
 	font-size: 18pt;
 	margin: 0 0 0 5px;
 }
-.flink {
+.flink, .tlink, .glink, .elink {
 	color: gray; 
 }
 .flink:hover {
 	color: #45619D;
 }
-.tlink {
-	color: gray;
-} 
 .tlink:hover {
 	color: #2596C6;
 }
-.glink {
-	color: gray;
-} 
 .glink:hover {
 	color: #333333;
 }
-.elink {
-	color: gray;
-} 
 .elink:hover {
 	color: #DD4B39;
 }
@@ -236,7 +227,7 @@ footer span {
 /*Adicionar mais alguns intervalos para as coisa work well*/
 
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 800px) {
 	header {
 	width: 100%;
 	height: 5%;
@@ -253,7 +244,7 @@ footer span {
 
 header div {
 	position: absolute;
-	margin: 0 35% 0 27%;
+	margin: 0 0 0 32%;
 	width: 250px;
 	height: 5em;
 	-webkit-transition: all 5s;
@@ -262,7 +253,20 @@ header div {
 	-ms-transition: all 5s;
 	transition: all 5s;
 }
+header div h1 {
+	color: white;
+	font-size: 20px;
+	margin: 20px 0 0 0;
+	
+}
+.flink, .tlink, .glink, .elink {
+	color: #fff; 
+}
+.primeira {
+	margin-top:200px;
+	text-align: center;
 
+}
 .sobre_box h3{
 	font-size: 30px;
 }
@@ -308,7 +312,6 @@ header div {
 	text-align: center;
 
 }
-
 footer {
 	background-color: black;
 	position: fixed;
