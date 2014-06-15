@@ -8,6 +8,7 @@ body {
 	background-image: url(../img/doriel_drake.gif);
 	background-repeat: no-repeat;
 	font-family: 'Source Sans Pro', sans-serif;
+	background-color: gray;
 }
 
 .tudo {
@@ -233,57 +234,6 @@ footer span {
 	transition: all 5s;
 }
 /*Adicionar mais alguns intervalos para as coisa work well*/
-@media screen and (max-width: 100px) {
-	header {
-	width: 100%;
-	height: 5%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	-webkit-transition: all 5s;
-	-moz-transition: all 5s;
-	-o-transition: all 5s;
-	-ms-transition: all 5s;
-	transition: all 5s;
-	z-index: 1000;
-}
-
-header div {
-	position: absolute;
-	margin: 0 35% 0 35%;
-	width: 250px;
-	height: 5em;
-	-webkit-transition: all 5s;
-	-moz-transition: all 5s;
-	-o-transition: all 5s;
-	-ms-transition: all 5s;
-	transition: all 5s;
-}
-
-header div h1 {
-	font-size: 25px;
-	margin: 20px 0 0 0;
-	opacity: 0.6;
-	cursor: pointer;
-}
-.sobre_box h3{
-	font-size: 30px;
-}
-footer {
-	background-color: black;
-	position: fixed;
-	width: 100%;
-	height: 20px;
-	bottom: 0;
-	left: 0;
-	text-align: center;
-	
-}
-footer span {
-	font-size: 10px;
-	margin: 0 20px 0 20px;
-}
-}
 
 
 @media screen and (max-width: 690px) {
@@ -313,12 +263,6 @@ header div {
 	transition: all 5s;
 }
 
-header div h1 {
-	font-size: 25px;
-	margin: 20px 0 0 0;
-	opacity: 0.6;
-	cursor: pointer;
-}
 .sobre_box h3{
 	font-size: 30px;
 }
@@ -356,16 +300,15 @@ header div {
 	display: none;
 	
 }
+.flink, .tlink, .glink, .elink {
+	color: #fff; 
+}
+.primeira {
+	margin-top:100px;
+	text-align: center;
 
-header div h1 {
-	font-size: 25px;
-	margin: 20px 0 0 0;
-	opacity: 0.6;
-	cursor: pointer;
 }
-.sobre_box h3{
-	font-size: 30px;
-}
+
 footer {
 	background-color: black;
 	position: fixed;
