@@ -1,5 +1,3 @@
-var mozjpeg = require('imagemin-mozjpeg');
-
 module.exports = function(grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
@@ -19,7 +17,8 @@ module.exports = function(grunt) {
 		cssmin: {
 			combine: {
 				files:{
-					'css/main.css': ['src/css/main.css', 'src/css/animate.css','src/css/font-awesome.css']
+					'css/main.css': ['src/css/main.css', 'src/css/animate.css'],
+					'css/font-awesome.css':'src/css/font-awesome.css'
 				}
 
 			}
@@ -34,23 +33,11 @@ module.exports = function(grunt) {
       			}
     		}
   		},
-  		imagemin: {                          
-    		static: {                          
-      			options: {                       
-        			optimizationLevel: 3,
-        			use: [mozjpeg()]
-      			},
-      			files: {                         
-        			'img/skater.jpg': 'src/img/skater.jpg',
-        			'img/doriel_drake.gif': 'src/img/doriel_drake.gif'
-      			}
-    		}
-    	}	
+  			
 
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-htmlmin');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-contrib-imagemin');
 }
