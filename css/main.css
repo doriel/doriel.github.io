@@ -37,6 +37,13 @@ li{
 ul li {
 	display: inline-block;	
 }
+ul li a{
+
+}
+a {
+	text-decoration: none;
+	color:black;
+}
 .inner-main {
   position: absolute;
   top: 50%;
