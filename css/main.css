@@ -1,21 +1,21 @@
 @font-face {
   font-family: 'Josefin Slab';
-  src: url('fonts/JosefinSlab-Bold.ttf'); 
+  src: url('../fonts/JosefinSlab-Bold.ttf'); 
 }
 
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-	overflow: hidden;
 }
 body{	
 	background-image: url('../img/background.jpg');
 	background-size: 220% 220%;
     background-repeat: no-repeat;
+    box-sizing: border-box;
+	overflow: hidden;
 }
 .main{
-	/*background-image: url('../img/clouds.jpg');*/
+	background-image: url('../img/clouds.png');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
@@ -43,6 +43,9 @@ ul li a{
 a {
 	text-decoration: none;
 	color:black;
+}
+a:hover {
+	text-decoration: underline;
 }
 .inner-main {
   position: absolute;
