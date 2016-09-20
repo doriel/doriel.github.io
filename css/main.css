@@ -25,6 +25,11 @@ h1{
 	text-align: center;
 
 }
+h2{
+	font-family: 'Josefin Slab', serif;
+	font-size: 8em;
+	text-align: center;
+}
 ul{
 	font-family: 'Josefin Slab', serif;
 	font-size: 28px;
