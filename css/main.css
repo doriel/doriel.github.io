@@ -1,21 +1,5 @@
-/* https://coolors.co/2c3e50-e74c3c-ffffff-3498db-95a3b3 */
-
-/* ========================
-Utilities
-======================== */
-
 * {
   box-sizing: border-box;
-}
-
-.cf::before,
-.cf::after {
-    content: "";
-    display: table; 
-}
-
-.cf::after {
-    clear: both;
 }
 
 html {
@@ -25,10 +9,6 @@ html {
 img {
   max-width: 100%;
 }
-
-/* ========================
-Global
-======================== */
 
 body {
   color: #444;
@@ -57,9 +37,15 @@ a, a:hover, a:focus, a:active, a:visited {
   text-decoration: underline;
 }
 
-/* ========================
-Containers
-======================== */
+.cf::before,
+.cf::after {
+    content: "";
+    display: table; 
+}
+
+.cf::after {
+    clear: both;
+}
 
 .container-fluid {
   padding: 0 1em;
@@ -70,9 +56,6 @@ Containers
   max-width: 996px;
 }
 
-/* ========================
-Navigation
-======================== */
 
 @keyframes show-header {
     0% {
@@ -146,9 +129,6 @@ nav.sticky {
   width: 100%;
 }
 
-/* ========================
-Sections
-======================== */
 
 .splash {
   background: linear-gradient(rgba(44, 62, 80, 0.65), rgba(52, 152, 219, 0.65)),
@@ -279,9 +259,6 @@ Sections
   text-transform: uppercase;
 }
 
-/* ========================
-Footer
-======================== */
 
 .footer {
   background-color: #2C3E50;
@@ -303,9 +280,6 @@ Footer
   margin-right: 0;
 }
 
-/* ========================
-Media Queries
-======================== */
 
 @media (min-width: 768px) {
   
