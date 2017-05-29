@@ -11,34 +11,101 @@
 	<meta name="author" content="Doriel Fonseca, doriel3572, Fonseca, Doriel Angola">
 	<meta name="keyworks" content="creative, web,  design, developer, luanda, angola, 8897, doriel , doriel3572, designer, angodev">
 	<meta name="description" content="Doriel Fonseca's personal web site ;)">
-	<script src="js/angular.min.js"></script>
-    <script src="js/angular-route.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 </head>
 <body>
-	<header>
-		
-	</header>
-	
-	<section class="main" ng-app='myApp'>
-	<div class="inner-main">
-		<h1 class="animated fadeInDown">Doriel</h1>
-		<ul class="animated fadeInLeft">
-			<li><a href="#sobre">Sobre</a></li>
-			<li><a href="#projectos">Projectos</a></li>
-			<li><a href="#contacto">Contacto</a></li>
-		</ul><br>
-		<h2 ng-view></h2>
-	</div>
-	
-		
-	</section>
-	
-	<footer>
-	
-	</footer>
-	
+	<nav class="container-fluid nav">
+  <div class="container cf">
+    <div class="brand">
+      <a href="#splash">Doriel Fonseca</a>
+    </div>
+    <i class="fa fa-bars nav-toggle"></i>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#habil">Habilidades</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </div>
+</nav>
 
+<div class="container-fluid splash" id="splash">
+  <div class="container">
+    <img src="img/qg.jpg" alt="Doriel Fonseca" class="profile-image">
+    <h1>Doriel</h1>
+    <span class="lead">To do or not to do...</span>
+    <span class="continue"><a href="#sobre"><i class="fa fa-angle-down"></i></a></span>
+  </div>
+</div>
 
+<div class="container-fluid intro" id="sobre">
+  <div class="container">
+    <h2>Sobre</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime necessitatibus magni mollitia ipsum, fuga nemo animi, eos reprehenderit consequuntur sunt. Fugit sequi cupiditate, molestias qui excepturi officiis, sit nesciunt optio.</p>
+  </div>
+</div>
+
+<div class="container-fluid features" id="habil">
+  <div class="container cf">
+    <h2>Habilidades</h2>
+    <div class="col-3">
+      <img src="https://s22.postimg.org/oi5es3fkx/icon_cloud.png" alt="">
+      <h3>Cloud Computing</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda modi maiores eum commodi soluta, blanditiis voluptates ea eos, cim! Neque.</p>
+    </div>
+    <div class="col-3">
+      <img src="https://s22.postimg.org/jxj8d5vvl/icon_coding.png" alt="">
+      <h3>Expert Coding</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda modi maiores eum commodi soluta, blanditiis voluptates ea eos, cim! Neque.</p>
+    </div>
+    <div class="col-3">
+      <img src="https://s22.postimg.org/citwksa01/icon_graph.png" alt="">
+      <h3>Data Analysis</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda modi maiores eum commodi soluta, blanditiis voluptates ea eos, cim! Neque.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid portfolio" id="portfolio">
+  <div class="container cf">
+    <h2>Portfólio</h2>
+    <div class="gallery">
+      <div class="gallery-image"><img src="http://www.cselectrical.org/wp-content/uploads/2013/09/Project-Management1.jpg" alt=""></div>
+      <div class="gallery-image"><img src="https://blogs.office.com/wp-content/uploads/2015/10/Project-Manager-FI.png" alt=""></div>
+      <div class="gallery-image"><img src="https://unsplash.it/800/450?image=248" alt=""></div>
+      <div class="gallery-image"></div>
+      <div class="gallery-image"></div>
+      <div class="gallery-image"></div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid contact" id="contact">
+  <div class="container">
+    <form>
+      <h2>Fale comigo</h2>
+      <input type="text" placeholder="Nome" id="name" name="name" class="full-half">
+      <input type="email" placeholder="Email" id="email" name="email" class="full-half">
+      <input type="text" placeholder="Assunto" id="subject" name="subject">
+      <textarea placeholder="Mensagem" id="message" name="message"></textarea>
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+</div>
+
+<footer class="container-fluid footer">
+  <div class="container">
+    <a href="https://www.facebook.com/doriel3572" target="_blank"><i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/Doriel3572" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="https://github.com/doriel" target="_blank"><i class="fa fa-github"></i></a>
+    <a href="https://codepen.io/doriel/" target="_blank"><i class="fa fa-codepen"></i></a>
+  </div>
+</footer>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>	
 </body>
 </html>
