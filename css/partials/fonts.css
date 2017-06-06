@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/HelveticaNeue.otf");
+}
+@font-face {
+  font-family: "Helvetica-Light";
+  src: url("../fonts/HelveticaNeue-Light.otf");
+}
+@font-face {
+  font-family: "Helvetica-Medium";
+  src: url("../fonts/HelveticaNeue-Medium.otf");
+}
+@font-face {
+  font-family: "Helvetica-Bold";
+  src: url("../fonts/HelveticaNeue-Bold.otf");
+}
+body {
+  font-family: "Helvetica", "sans-serif";
+}
