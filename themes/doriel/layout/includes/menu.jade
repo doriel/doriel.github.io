@@ -1,0 +1,29 @@
+.menu-bar
+  if page.class
+    img(src="/img/menu-icon1.png" alt="Menu")
+    span.page-menu MENU
+  else
+    img(src="/img/menu-icon.png" alt="Menu")
+    span MENU
+
+section#menu.menu
+  .menu-top
+    .menu-top-left
+      a(href="/")
+        img(src='/img/logo-exported.png')
+    .menu-top-right.menu-close
+      img(src='/img/close-white.png')
+  .menu-links
+    ul
+      li 
+        a(href='/') INICIO
+      li 
+        a(href='/projectos') PROJECTOS
+      li
+        a(href='/sobre') SOBRE NÓS
+      li 
+        a(href='/contacto') CONTACTOS
+  .menu-bottom
+    img(src='/img/logotipo-white.png')
+    p A KiandaHub é um espaço de Coworking moderno situado <br> na Vila Alice, Rua Alda Lara, Casa Nº 3.
+

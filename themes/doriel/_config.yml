@@ -1,0 +1,21 @@
+
+# html lang
+language: pt
+
+# main menu navigation
+menu:
+  Inicio: /
+  Sobre: /about
+  Contato: /contact
+  Projetos: /archives
+
+# Miscelaneous
+favicon: /favicon.ico
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/main.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/main.js

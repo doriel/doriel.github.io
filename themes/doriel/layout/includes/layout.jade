@@ -1,0 +1,103 @@
+doctype html
+html(lang=config.language)
+  head
+    meta(charset='UTF-8')
+    title= pageTitle
+
+    // STYLESHEETS
+    if theme.stylesheets !== undefined && theme.stylesheets.length > 0
+      //- stylesheets list from config.yml
+      each url in theme.stylesheets
+        link(rel='stylesheet', href=url)
+    link(rel="icon", href=config.root + 'img/favicon.png')
+
+  //  Body
+  body
+
+    // Menu
+    #menu-bar.menu-bar(onclick='mostrarMenu()')
+      img(src="/img/menu-icon.png" alt="Menu")
+      span MENU
+
+    //section.container
+
+    // Left content
+      .left
+        .logotipo#logotipo
+          a(href="/")
+            img(src="/img/logo-exported.png")
+
+        .intro-text
+          h1 Criamos soluções <br> inovadoras
+          br
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eius est officia voluptatibus facilis. Okar
+          br 
+          button NOSSO PORTFÓLIO
+        
+    // Right content  
+      .right
+
+      section#menu.menu
+        .menu-top
+          .menu-top-left
+            img(src='/img/logo-exported.png')
+          .menu-top-right
+            h4(onclick='fecharMenu()') X
+        .menu-links
+          ul
+            li 
+              a(href='/index') INICIO
+            li 
+              a(href='/projecto') PROJECTOS
+            li
+              a(href='/sobre') SOBRE NÓS
+            li 
+              a(href='/contacto') CONTACTOS
+        .menu-bottom
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
+          img(src='/img/logotipo-white.png')
+    
+
+    section.container.page
+
+      // Left content
+      .left
+        article.page-content
+          .logo
+            img(src="/img/logo-exported.png", alt="LoopLab")
+
+          .page-title
+            h1 PORTFÓLIO
+            
+        
+      // Right content  
+      .right
+
+      section#menu.menu
+        .menu-top
+          .menu-top-left
+            img(src='/img/logo-exported.png')
+          .menu-top-right
+            h4(onclick='fecharMenu()') X
+        .menu-links
+          ul
+            li 
+              a(href='/index') INICIO
+            li 
+              a(href='/projecto') PROJECTOS
+            li
+              a(href='/sobre') SOBRE NÓS
+            li 
+              a(href='/contacto') CONTACTOS
+        .menu-bottom
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
+          img(src='/img/logotipo-white.png')
+
+  
+
+    //  JAVASCRIPT
+    if theme.scripts !== undefined && theme.scripts.length > 0
+      //- scripts list from config.yml
+      each url in theme.scripts
+        script(src=url)
+    // Content

@@ -1,0 +1,24 @@
+{
+  "name": "looplab",
+  "description": "Official LoopLab site",
+  "main": "",
+  "authors": [
+    "Firmino Changani <flowck96@gmail.com>"
+  ],
+  "license": "None",
+  "keywords": [
+    "looplab",
+    "hexo",
+    "generator"
+  ],
+  "homepage": "http://looplab.co.ao",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./themes/looplab/source/vendor",
+    "test",
+    "tests"
+  ]
+}
