@@ -75,7 +75,7 @@ html(lang=config.language)
         - site.categories.findOne({name: "blog"}).posts.forEach(function(post) {
             article.project
                 .info
-                    a(href= post.site)
+                    a(href='#')
                       h1= post.title
                     .post-resume!= post.content
                     span.tecnologias= post.time
